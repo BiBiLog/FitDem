@@ -1,0 +1,16 @@
+﻿<Window x:Class="FitnessApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FitnessApp"
+        mc:Ignorable="d"
+        Title="Главное окно" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Border Background="CadetBlue" Height="70" VerticalAlignment="Top"/>
+        <Border Background="Coral" Height="49" VerticalAlignment="Bottom"/>
+        <Button x:Name="auth_btn" Content="Авторизация" Margin="260,130,297,0" VerticalAlignment="Top" Height="70" Click="auth_btn_Click"/>
+        <Button x:Name="reg_btn" Content="Регистрация" Margin="260,240,297,0" VerticalAlignment="Top" Height="70" Click="reg_btn_Click"/>
+
+    </Grid>
+</Window>
